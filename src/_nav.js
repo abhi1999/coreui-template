@@ -12,44 +12,44 @@ export default {
     {
       name: 'Timesheets',
       url: '/timesheet',
-      icon: 'icon-puzzle',
+      icon: 'icon-people',
       children: [
         {
           name: 'Schedule',
           url: '/timesheet/schedule',
-          icon: 'icon-puzzle',
+          icon: 'icon-calendar',
         },
         {
           name: 'Payroll',
           url: '/timesheet/payroll',
-          icon: 'icon-puzzle',
+          icon: 'icon-envelope',
         },
         {
           name: 'Union Sheet',
           url: '/timesheet/union',
-          icon: 'icon-puzzle',
+          icon: 'icon-link',
         },
       ],
     },
     {
       name: 'Reports',
       url: '/report',
-      icon: 'icon-puzzle',
+      icon: 'icon-rocket',
       children: [
         {
           name: 'Active Jobs',
           url: '/timesheet/schedule',
-          icon: 'icon-puzzle',
+          icon: 'icon-briefcase',
         },
         {
           name: 'Completed Job',
           url: '/timesheet/payroll',
-          icon: 'icon-puzzle',
+          icon: 'icon-folder-alt',
         },
         {
           name: 'P&L',
           url: '/timesheet/union',
-          icon: 'icon-puzzle',
+          icon: 'icon-trophy',
         },
       ],
     },
@@ -65,12 +65,12 @@ export default {
     {
       name: 'Jobsites',
       url: '/timesheet/union',
-      icon: 'icon-puzzle',
+      icon: 'icon-directions',
     },
     {
       name: 'Employees',
       url: '/timesheet/union',
-      icon: 'icon-puzzle',
+      icon: 'icon-organization',
     },
     {
       title: true,
@@ -84,17 +84,17 @@ export default {
     {
       name: 'Estimates',
       url: '/report',
-      icon: 'icon-puzzle',
+      icon: 'icon-speedometer',
       children: [
         {
           name: 'Operations',
           url: '/timesheet/schedule',
-          icon: 'icon-puzzle',
+          icon: 'icon-calculator',
         },
         {
           name: 'Sales',
           url: '/timesheet/payroll',
-          icon: 'icon-puzzle',
+          icon: 'icon-graph',
         },
         ],
     },
